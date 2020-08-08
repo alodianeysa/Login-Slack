@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SekolahQA4</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>0f374020-7dac-4cf0-9fd7-74d7fb42c956</testSuiteGuid>
+   <testCaseLink>
+      <guid>810c89eb-fd23-41fa-b5e1-5d3b4b2c4a0f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Slack/TC_Login_positive_Variable1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6ec3e085-474d-4aff-b69c-466984f19979</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Login Slack Variable</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6ec3e085-474d-4aff-b69c-466984f19979</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>b27a25e7-88af-4f90-a525-6461159f4f2a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c723ee6b-5322-4a07-a4bd-0771c3417a06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6ec3e085-474d-4aff-b69c-466984f19979</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>workspace</value>
+         <variableId>13869878-e759-4c76-ad52-7fd33a6607d8</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
